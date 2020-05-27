@@ -1,0 +1,23 @@
+{
+    "af1": [{
+        "username": "Test",
+        "rating": 4,
+        "content": "This is a good product",
+        "comments": [{ "username": "Test2", "content": "I agree" }]
+    }],
+    "tm": [
+
+    ],
+    "97": [
+
+    ],
+    "270b": [
+
+    ],
+    "270w": [
+
+    ],
+    "c1": [
+
+    ]
+}

@@ -26,7 +26,6 @@ app.get('/index', function(req, res){
     res.sendFile(__dirname + '/index.html');
 });
 
-
 const users = []
 
 app.set('views', path.join(__dirname, 'views'));
