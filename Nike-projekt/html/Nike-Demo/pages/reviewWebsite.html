@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Review</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel = "stylesheet" href="../style/reviewWebSiteStyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <script>
+    function openMenu() {
+      document.getElementById("myMenu").style.width = "100%";
+    }
+
+    function closeMenu() {
+      document.getElementById("myMenu").style.width = "0%";
+    }
+  </script>
+  <script src="../js/index.js" defer></script>
+  <body onload="openMenu()">
+    <div id="myMenu" class="overlay">
+
+      
+
+      <div class="overlay-content">
+        <a href="shoes.html" class="w3-bar-item w3-button"><i class="fas fa-shoe-prints"></i></a>
+      </div>
+    </div>
+
+    <!--<article>
+      <section class = "w3-container" style = "margin-left: 70px">
+        <h1>Reviews</h1>
+        <h2>
+          "Reviews" is going to be the webablication where you can add a new review and all the reviews are displayed. You can also filter it by a sertant product.
+        </h2>
+        <p>Nike products are selling very good, so they need a lot of costumer reviews.
+        On this side you can see the reviews from other costumers and also write your own
+        review.</p>
+        <p>The opinion of the costumers is very important to make a new, better nike. </p>
+      </section>
+    </article>-->
+
+    <div id="id01" class="modal">
+      <div class="modal-content animate">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required class="username">
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required class="password">
+
+          <button class="loginButton">Login</button><br>
+          <button class="signUp">Sign Up</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

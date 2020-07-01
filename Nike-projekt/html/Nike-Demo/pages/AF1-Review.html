@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="../style/nikeStoreWebSiteStyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../style/AF1.css">
+    <script src="js/shoes.js" defer></script>
+    <title></title>
+</head>
+<script>
+  function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+<body>
+
+
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a href="../index.html" class="w3-bar-item w3-button"><i class="fa fa-bars"></i></a>
+            <a href="generalWebsite.html" class="w3-bar-item w3-button"><i class="fa fa-info-circle"></i></a>
+            <a href="mediaWebsite.html" class="w3-bar-item w3-button"><i class="fa fa-hashtag"></i></a>
+            <a href="productsWebsite.html" class="w3-bar-item w3-button"><i class="fa fa-shopping-bag"></i></a>
+            <a href="reviewWebsite.html" class="w3-bar-item w3-button"><i class="fa fa-comment"></i></a>
+            <a href="nikeStoreWebsite.html" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart"></i></a>
+            <a href="hallOfFameWebsite.html" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a>
+        </div>
+
+    </div>
+
+    <span onclick="openNav()"><img src="../pic/nike.png" style="margin-left:10px; margin-top:-10px;" width=100px></span>
+
+    <br>
+    </br>
+    <img src="../pic/AirForce1.jpg" class="shoe" alt="the NIKE media">
+    <img src="../pic/AF1-Downside.jpg" class="shoe" alt="the NIKE media">
+
+    <h1>Nike Air Force 1</h1>
+
+    <p class="shoe-text">
+      The Nike Air Force 1 Type gives handmade accents to a legendary look. It has a locking system around the heel that pays tribute to the OG Hghtop, plus rubber toe caps to take you to a new dimension in AF1 style
+      can enter.
+    </p>
+
+    <hr class="borderUp">
+
+
+
+    <h3>Productinfos:</h3>
+
+    <ul>
+        <li>Price: 60€ - 120€ (there are different models)</li>
+        <li>Size: 36 - 50</li>
+        <li>Outsidematerial: Leather</li>
+        <li>Innermaterial: Synthetic</li>
+        <li>Shoewidth: Thin</li>
+        <li>WaterProof: No</li>
+    </ul>
+
+    <hr class="borderUp">
+
+
+
+    <h3>Advantages:</h3>
+
+    <p class="shoe-text">
+      A close-fitting liner and an adjustable strap Flywire fibers ensure a supportive fit that encircles the foot, while handwritten logos, unique covers and visible seams ensure a handcrafted aesthetic. The extra large
+      Rubber toe section has a geometric pattern inspired by the technical manuals found in shoe boxes in the 1970s and 1980s. The Nike Air cushioning and foam midsole ensure
+      soft comfort.
+    </p>
+    <br>
+
+    <hr class="borderDown">
+
+    <br>
+    <div class="ratingBox">
+        <form class="newRating">
+            <label for="username">
+                Username
+            </label>
+                <input type="text" name="username">
+            <label for="rating">
+                Rating
+            </label>
+                <input type="number" max="10" min="0" name="rating">
+            <label for="content">
+                Content
+            </label>
+                <textarea name="content" class="contentOfReview"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+
+    <hr class="borderDown">
+
+    <div class="ratings">
+
+    </div>
+</body>
+
+</html>
